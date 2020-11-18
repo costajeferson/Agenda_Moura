@@ -1,0 +1,17 @@
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Csharp_Agenda.csprojAssemblyReference.cache
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AGENDA_MOURA.resources
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Csharp_Agenda.csproj.GenerateResource.cache
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Csharp_Agenda.csproj.CoreCompileInputs.cache
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\JFeH\source\repos\MOURA_AGENDA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Csharp_Agenda.csprojAssemblyReference.cache
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AGENDA_MOURA.resources
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Csharp_Agenda.csproj.GenerateResource.cache
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Csharp_Agenda.csproj.CoreCompileInputs.cache
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\JFeH\Desktop\PROCESSO_MOURA\C# AGENDA_MOURA\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

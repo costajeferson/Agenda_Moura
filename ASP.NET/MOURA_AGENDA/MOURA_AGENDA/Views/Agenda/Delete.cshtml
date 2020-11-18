@@ -1,0 +1,104 @@
+﻿@model MOURA_AGENDA.Models.Agendum
+
+@{
+    ViewBag.Title = "Delatar";
+}
+
+<h2>Deletar</h2>
+
+<h3>Você tem certeza que deseja excluir esse contato da agenda?</h3>
+<div>
+    <h4>Agenda Moura</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NOME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SOBRENOME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SOBRENOME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TELEFONE_RESIDENCIAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TELEFONE_RESIDENCIAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CELULAR_PRINCIPAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CELULAR_PRINCIPAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CELULAR_RECADOS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CELULAR_RECADOS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ENDERECO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ENDERECO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NUMERO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NUMERO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BAIRRO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BAIRRO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CIDADE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CIDADE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTADO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTADO)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar para a Listagem", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AGENDA_MOURAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AGENDA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SOBRENOME" Type="varchar" MaxLength="150" Nullable="false" />
+          <Property Name="TELEFONE_RESIDENCIAL" Type="varchar" MaxLength="16" />
+          <Property Name="CELULAR_PRINCIPAL" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="CELULAR_RECADOS" Type="varchar" MaxLength="16" />
+          <Property Name="ENDERECO" Type="varchar" MaxLength="256" Nullable="false" />
+          <Property Name="NUMERO" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="BAIRRO" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CIDADE" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="ESTADO" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AGENDA_MOURAModelStoreContainer">
+          <EntitySet Name="AGENDA" EntityType="Self.AGENDA" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AGENDA_MOURAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Agendum">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="NOME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SOBRENOME" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TELEFONE_RESIDENCIAL" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+          <Property Name="CELULAR_PRINCIPAL" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CELULAR_RECADOS" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NUMERO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="BAIRRO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CIDADE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ESTADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AGENDA_MOURAEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AGENDA" EntityType="Self.Agendum" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AGENDA_MOURAModelStoreContainer" CdmEntityContainer="AGENDA_MOURAEntities">
+          <EntitySetMapping Name="AGENDA">
+            <EntityTypeMapping TypeName="AGENDA_MOURAModel.Agendum">
+              <MappingFragment StoreEntitySet="AGENDA">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="SOBRENOME" ColumnName="SOBRENOME" />
+                <ScalarProperty Name="TELEFONE_RESIDENCIAL" ColumnName="TELEFONE_RESIDENCIAL" />
+                <ScalarProperty Name="CELULAR_PRINCIPAL" ColumnName="CELULAR_PRINCIPAL" />
+                <ScalarProperty Name="CELULAR_RECADOS" ColumnName="CELULAR_RECADOS" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+                <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,24 @@
+ID
+NOME
+SOBRENOME
+TELEFONE_RESIDENCIAL
+CELULAR_PRINCIPAL
+CELULAR_RECADOS
+ENDERECO
+NUMERO
+BAIRRO
+CIDADE
+ESTADO
+
+
+conexão
+using System.Data.SqlClient;
+
+
+ SqlConnection conexao;
+        SqlCommand comando;
+        SqlDataAdapter da;
+        SqlDataReader dr;
+
+        string strSql;
+

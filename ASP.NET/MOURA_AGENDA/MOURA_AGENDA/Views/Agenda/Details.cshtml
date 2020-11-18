@@ -1,0 +1,98 @@
+﻿@model MOURA_AGENDA.Models.Agendum
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes Cadastrais</h2>
+
+<div>
+    <h4>Agenda Moura</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NOME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SOBRENOME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SOBRENOME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TELEFONE_RESIDENCIAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TELEFONE_RESIDENCIAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CELULAR_PRINCIPAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CELULAR_PRINCIPAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CELULAR_RECADOS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CELULAR_RECADOS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ENDERECO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ENDERECO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NUMERO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NUMERO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BAIRRO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BAIRRO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CIDADE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CIDADE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTADO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTADO)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Voltar para a Listagem", "Index")
+</p>

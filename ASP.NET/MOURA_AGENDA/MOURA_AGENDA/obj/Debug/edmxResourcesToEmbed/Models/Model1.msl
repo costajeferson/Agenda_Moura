@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AGENDA_MOURAModelStoreContainer" CdmEntityContainer="AGENDA_MOURAEntities">
+    <EntitySetMapping Name="AGENDA">
+      <EntityTypeMapping TypeName="AGENDA_MOURAModel.Agendum">
+        <MappingFragment StoreEntitySet="AGENDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="SOBRENOME" ColumnName="SOBRENOME" />
+          <ScalarProperty Name="TELEFONE_RESIDENCIAL" ColumnName="TELEFONE_RESIDENCIAL" />
+          <ScalarProperty Name="CELULAR_PRINCIPAL" ColumnName="CELULAR_PRINCIPAL" />
+          <ScalarProperty Name="CELULAR_RECADOS" ColumnName="CELULAR_RECADOS" />
+          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
